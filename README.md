@@ -1,3 +1,3 @@
 # alx-backend-javascript
 
-This repo contains my projects for alx backend JS
+This repo contains my projects for alx backend JavaScript
