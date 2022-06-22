@@ -5,14 +5,14 @@ interface Student {
     location: string;
 }
 
-const student1: Student {
+const student1: Student = {
     firstname: 'Allan',
     lastname: 'Nandweza',
     age: 26,
     location: 'Kampala',
 };
 
-const student2: Student {
+const student2: Student = {
     firstname: 'Caleb',
     lastname: 'James',
     age: 20,
@@ -29,7 +29,7 @@ studentsList.forEach((student: Student) => {
   const cellName = document.createElement('td');
   const cellLocation = document.createElement('td');
 
-  cellName.textContent = student.firstName;
+  cellName.textContent = student.firstname;
   cellLocation.textContent = student.location;
   row.appendChild(cellName);
   row.appendChild(cellLocation);
